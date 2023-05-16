@@ -38,7 +38,7 @@
     </nav>
 
     <div class="container-sm mt-5">
-        <form action="{{ route('employees.store') }}" class="needs-validation was-validated" method="POST"
+        <form action="{{ route('employees.store') }}" class="needs-validation" method="POST"
             novalidate="">
             @csrf
             <div class="row justify-content-center">
